@@ -1,0 +1,139 @@
+
+html,body{
+	height: 100%;
+}
+body{
+	background: fff;
+	font-family: font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size: 16px;
+	min-width: 320px;
+}
+a{
+	font-weight: 700;
+	font-style: 17px;
+	color: #666;
+	transition: all .5s;
+}
+a:hover{
+	color: #000;
+}
+img{
+	max-width: 80%;
+	height: auto;
+}
+section{
+	position: relative;
+}
+h2{
+	font-size: 30px;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+/*===========HEADER==========*/
+#header{
+	/*height: 100vh;*/
+	height: 100%;
+	min-height: 500px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid #000;
+
+}
+.section-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+
+}
+.section-row{
+	display: table-row;
+
+}
+.section-cell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+}
+.section-center{
+	max-width: 100%;
+	display: inline-block;
+	border-top: 15px dashed #000;
+	border-bottom: 15px dashed #000;
+	padding: 50px 0;
+}
+#header h1{
+	font-size: 50px;
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+
+}
+#header h1 span{
+	font-weight: 700;
+
+}
+
+
+
+/*========Section SLOGAN==========*/
+
+#slogan{
+	border-bottom: 2px solid #000;
+	padding-bottom: 50px;
+	
+}
+#slogan p{
+	font-size: 150px;
+	text-transform: uppercase;
+	border-bottom: 5px solid #000;: 
+}
+.row-item{
+	margin-top: 80px;
+}
+
+
+
+/*===========Section CONTACT US==========*/
+#contact-us{
+	padding: 50px 0;
+	border-bottom: 2px solid #000;
+}
+.contact-btn{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border: none;
+	background: #000;
+	transition: all .5s;
+}
+.contact-btn:hover{
+	color: #fff;
+	background: #090909;
+	box-shadow: 2px 2px 4px 2px black;
+}
+.contact-btn:focus{
+	color: #f6f6f6;
+	background: #090909;
+}
+
+
+/*===========Section FOOTER==========*/
+
+#footer{
+	padding: 50px 0;
+	text-transform: uppercase;
+}
+#footer p{
+	font-size: 50px;
+	line-height: 1;
+}
+#footer p span{
+	font-weight: 700;
+}
+#footer a{
+	transition: all .5s;
+}
